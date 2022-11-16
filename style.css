@@ -1,45 +1,28 @@
-h1{
-    color: red;
-    margin-left: 650px;
+table, th, tr, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 5px;
+    width: 500px;
 }
-
-img{
-    width: 170px;
-    height: 250px;
-    margin: 0px 0px;
+th{
+  background-color:salmon;
+    color: white;
+    text-transform: uppercase;
 }
-
-h4{
-    margin: 0px 0px;
+.bluevuolet{
+    background-color:mediumpurple;
+    color: white;
 }
-
-.block2{
-background-color: blueviolet;
-border: 2px solid black;
-padding: 20px;
+.darkviolet{
+    background-color:black;
+    color: white;
 }
-
-a{
-    color:rgb(244, 5, 120);
-    margin: 0px 0px;
-}
-
-.block3{
-    background-color:lightgreen;
-    border: 2px solid black;
-    padding: 20px;
-}
-.block4{
-    background-color: brown;
-    border: 2px solid black;
-    padding: 20px;
-}
-.block5{
-    border: 2px solid black;
-}
-.logo{
-    height: 20px;
-    width: 20px;
+.imgdiv{
+    width: 100px;
+    height: 100px;
+    background-image: url(https://content2.rozetka.com.ua/goods/images/big/256345445.jpg);
+    background-attachment: fixed;
+    background-size: auto;
 
 }
-
